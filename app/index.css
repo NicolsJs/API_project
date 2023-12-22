@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background: rgb(0, 0, 0);
+  background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(128, 0, 128, 1) 100%);  
+}
+.opacity{
+  background-image: url('GenshinImpact.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+  display: flex;  
+  opacity: 0.4;
+  justify-content: left;
+}
+.mensagem {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%; /* Ajuste a posição vertical conforme necessário */
+  left: 50%; /* Ajuste a posição horizontal conforme necessário */
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4); /* Cor de fundo com opacidade */
+  padding: 10px 20px;
+  z-index: 1; /* Garante que o texto fique acima do pseudo-elemento com a opacidade */
+}
+
+ h3 {
+  color:white;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  margin: 20px
+} 
+
+.justify-content-md-end{
+  flex-direction:column;
+}
+
+.btn-outline-info {
+  color: #dee2e6;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dee2e6;
+}
